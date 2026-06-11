@@ -1,0 +1,355 @@
+<!-- homepage -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Groceries planner</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Groceries Planner</h1>
+
+     
+<table>
+ 	<thead>
+		<tr>
+			<th>Dairy</th>
+			<th>Amount (Pounds )</th>
+            <th> <label for="dairy">Quantity</label> </th>
+            <th>✅ / ❌</th>
+		</tr>
+ 	</thead>
+	<tbody>
+		<tr>
+	 		<td>Milk</td>
+			<td id="milkPrice">2.52</td>
+            <td>
+                <select name="milk" id="milkQuantity">
+            
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "milkChecked"></td> 
+	 	</tr>
+	 	<tr>
+		 	<td>Yogurt</td>
+			<td id="yogurtPrice">2.54</td>
+             <td>
+                <select name="yogurt" id="yogurtQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "yogurtChecked"></td> 
+		</tr>
+		<tr>
+		 	<td>Butter</td>
+			<td id="ButterPrice">3.45</td>
+             <td>
+                <select name="butter" id="butterQuantity">
+               
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+               
+                </select>
+            </td>
+            <td><input type="checkbox" id = "butterChecked"></td> 
+		</tr>
+		<tr>
+		 	<td>Ghee</td>
+			<td id="GheePrice">6.12</td>
+             <td>
+                <select name="ghee" id="gheeQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "gheeChecked"></td> 
+		</tr>
+	</tbody>
+</table>
+
+<br>
+
+<table>
+ 	<thead>
+		<tr>
+			<th>Meat</th>
+			<th>Amount (Pounds )</th>
+            <th> <label for="meat">Quantity</label> </th>
+            <th>✅ / ❌</th>
+        </tr>
+ 	</thead>
+	<tbody>
+    <tr>
+        <td>Chicken</td>
+        <td id="chickenPrice"> 4.50 </td>
+        <td>
+            <select name="chicken" id="chickenQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </td>
+        <td><input type="checkbox" id="chickenChecked"></td>
+    </tr>
+
+    <tr>
+        <td>Egg</td>
+        <td id="eggPrice">5.90</td>
+        <td>
+            <select name="egg" id="eggQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </td>
+        <td><input type="checkbox" id="eggChecked"></td>
+    </tr>
+
+    <tr>
+        <td>Smoked Salmon</td>
+        <td id="salmonPrice">4.90</td>
+        <td>
+            <select name="salmon" id="salmonQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </td>
+        <td><input type="checkbox" id="salmonChecked"></td>
+    </tr>
+</tbody>
+</table>
+<br>
+
+<table>
+ 	<thead>
+		<tr>
+			<th>Fruits</th>
+			<th>Amount (Pounds )</th>
+            <th> <label for="fruits">Quantity</label> </th>
+            <th>✅ / ❌</th>
+            
+		</tr>
+ 	</thead>
+	<tbody>
+		<tr>
+	 		<td>Banana</td>
+			<td id="bananaPrice">2.50</td>
+             <td>
+                <select name="banana" id="bananaQuantity">
+            
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            
+                </select>
+            </td>
+            <td><input type="checkbox" id = "bananaChecked"></td> 
+	 	</tr>
+	 	<tr>
+		 	<td>Strawberry</td>
+			<td id="strawberryPrice">1.90</td>
+             <td>
+                <select name="strawberry" id="strawberryQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            
+                </select>
+            </td>
+            <td><input type="checkbox" id = "strawberryChecked"></td> 
+		</tr>
+		<tr>
+		 	<td>Blueberries</td>
+			<td id="blueberryPrice">1.90</td>
+             <td>
+                <select name="blueberry" id="blueberryQuantity">
+               
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "blueberryChecked"></td> 
+		</tr>
+        <tr>
+		 	<td>Apples</td>
+			<td id="applePrice">2.90</td>
+             <td>
+                <select name="apple" id="appleQuantity">
+               
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              
+                </select>
+            </td>
+            <td><input type="checkbox" id = "appleChecked"></td> 
+		</tr>
+        <tr>
+		 	<td id="grapePrice">Grapes</td>
+			<td>3.90</td>
+             <td>
+                <select name="grape" id="grapeQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+               
+                </select>
+            </td>
+            <td><input type="checkbox" id = "grapeChecked"></td> 
+		</tr>
+	</tbody>
+</table>
+<br>
+
+<table>
+ 	<thead>
+		<tr>
+			<th>Vegetables</th>
+			<th>Amount (Pounds )</th>
+            <th> <label for="vegetables">Quantity</label> </th>
+            <th>✅ / ❌</th>
+		</tr>
+ 	</thead>
+	<tbody>
+		<tr>
+	 		<td>Onion</td>
+			<td id="onionPrice">1.30</td>
+             <td>
+                <select name="onion" id="onionQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>
+            </td>
+            <td><input type="checkbox" id = "onionChecked"></td> 
+	 	</tr>
+	 	<tr>
+		 	<th>Tomatoes</th>
+			<td id="tomatoPrice">1.45</td>
+             <td>
+                <select name="tomato" id="tomatoQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "tomatoChecked"></td> 
+		</tr>
+		<tr>
+		 	<th>Potatoes</th>
+			<td id="potatoPrice">0.90</td>
+             <td>
+                <select name="potato" id="potatoQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "potatoChecked"></td> 
+		</tr>
+        <tr>
+		 	<th>Coriander</th>
+			<td id="corainderPrice">1.00</td>
+             <td>
+                <select name="coriander" id="corianderQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "corianderChecked"></td> 
+		</tr>
+        <tr>
+		 	<th>Mint</th>
+			<td id="mintPrice">1.00</td>
+             <td>
+                <select name="mint" id="mintQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "mintChecked"></td> 
+		</tr>
+        <tr>
+		 	<th>Ginger</th>
+			<td id="gingerPrice">0.90</td>
+             <td>
+                <select name="ginger" id="gingerQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "gingerChecked"></td> 
+		</tr>
+        <tr>
+		 	<th>Garlic</th>
+			<td id="garlicPrice">1.90</td>
+             <td>
+                <select name="garlic" id="garlicQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "garlicChecked"></td> 
+		</tr>
+        <tr>
+		 	<th>Spinach</th>
+			<td id="spinachPrice">2.90</td>
+             <td>
+                <select name="spinach" id="spinachQuantity">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                
+                </select>
+            </td>
+            <td><input type="checkbox" id = "spinachChecked"></td> 
+		</tr>
+	</tbody>
+</table>
+
+<div class="button-container">
+    <button class="button-3" id="calculateTotal">Calculate Total</button>
+    <button class="button-3" id="reset">Reset</button>
+
+</div>
+<h3 id="total"></h3>
+
+<script src = "index.js"> </script>
+</body>
+ </html>
